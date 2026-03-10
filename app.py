@@ -2,6 +2,10 @@ import joblib
 import streamlit as st
 import pandas as pd
 
+import src.train
+import src.pipeline
+import src.preprocess
+
 model = joblib.load("model/model.pkl")
 
 st.title("ASG 04 MD - Kaisar - Spaceship Titanic Model Deployment")
